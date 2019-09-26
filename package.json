@@ -1,0 +1,30 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tam8217/http-api-assignment-ii.git"
+  },
+  "author": "Tristan Marshall",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tam8217/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/tam8217/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
